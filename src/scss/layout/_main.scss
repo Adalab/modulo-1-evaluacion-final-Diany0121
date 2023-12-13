@@ -1,1 +1,79 @@
+.subtitle{
+    display: block;
+    font-family: Roboto;
+    font-size: 14px;
+    color: $color_bright_orange;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.title{
+    display: block;
+    font-family: Roboto;
+    font-size: 25px;
+    color: black;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.text{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.buttonComprar{
+    width: 160px;
+    height: 45px;
+    font-family: Roboto;
+    font-size: 20px;
+    background-color: $color_white;
+    color: $color_bright_orange;
+    border-radius: 22px;
+    border: 2px solid $color_bright_orange;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
 
+.section{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    background-color: $color_white_two;
+    width: 100%;
+}
+.h3{
+    text-align: center;
+    padding-top: 30px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+.buttonEmpezar{
+    width: 180px;
+    height: 45px;
+    font-family: Roboto;
+    font-size: 20px;
+    background-color: $color_bright_orange;
+    color: $color_white;
+    border-radius: 22px;
+    border: 2px solid $color_bright_orange;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.article_title{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+.article_text{
+    font-size: 18px;
+    line-height: 25px;
+}
