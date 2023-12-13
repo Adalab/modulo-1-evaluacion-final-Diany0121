@@ -15,6 +15,7 @@
     margin-left: 20px;
 }
 .text{
+    width: 80%;
     display: flex;
     justify-content: flex-start;
     font-size: 18px;
@@ -36,6 +37,13 @@
     margin-bottom: 50px;
 }
 
+.buttonComprar:hover{
+    background-color: $color_bright_orange;
+    color: $color_white;
+    border: 2px solid $color_greyish_brown;
+    transition: all 300ms;
+}
+
 .section{
     display: grid;
     justify-content: center;
@@ -47,12 +55,23 @@
     width: 100%;
 }
 .h3{
+    width: 185px;
     text-align: center;
     padding-top: 30px;
     font-family: Roboto;
     font-size: 20px;
     font-weight: bold;
     padding-bottom: 40px;
+}
+.article_title{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 25px;
+}
+.article_text{
+    width: 160px;
+    font-size: 18px;
+    line-height: 25px;
 }
 .buttonEmpezar{
     width: 180px;
@@ -65,15 +84,11 @@
     border: 2px solid $color_bright_orange;
     margin-top: 20px;
     margin-left: 20px;
+    margin-bottom: 50px;
 }
-
-.article_title{
-    font-size: 18px;
-    font-weight: bold;
-    line-height: 25px;
-}
-
-.article_text{
-    font-size: 18px;
-    line-height: 25px;
+.buttonEmpezar:hover{
+    background-color: $color_white;
+    color: $color_bright_orange;
+    border: 2px solid $color_greyish_brown;
+    transition: all 300ms;
 }
