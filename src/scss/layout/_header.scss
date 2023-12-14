@@ -49,6 +49,23 @@
       font-size: 24px;
     }
   }
+
+  @media (min-width: 1200px){
+    .hero{
+      width: 100%;
+    }
+
+    .hero_title{
+      font-size: 100px;
+      line-height: 1.30;
+    }
+
+    .hero_title_text{
+      width: 495px;
+      font-size: 24px;
+    }
+  }
+
 }
 
 .botton{

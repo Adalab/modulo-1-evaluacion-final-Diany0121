@@ -6,6 +6,8 @@
     margin-top: 25px;
     margin-left: 20px;
 }
+
+
 .title{
     display: block;
     font-family: Roboto;
@@ -24,18 +26,8 @@
     margin-left: 20px;
     margin-bottom: 20px;
 }
-.buttonComprar{
-    width: 160px;
-    height: 45px;
-    font-family: Roboto;
-    font-size: 20px;
-    background-color: $color_white;
-    color: $color_bright_orange;
-    border-radius: 22px;
-    border: 2px solid $color_bright_orange;
-    margin-left: 20px;
-    margin-bottom: 50px;
-}
+
+
 
 .buttonComprar:hover{
     background-color: $color_bright_orange;
@@ -44,16 +36,18 @@
     transition: all 300ms;
 }
 
+
+
 .section{
+    width: 100%;
     display: grid;
     justify-content: center;
     justify-items: center;
     text-align: center;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 20px;
     background-color: $color_white_two;
-    width: 100%;
 }
+
 .h3{
     width: 185px;
     text-align: center;
@@ -63,6 +57,7 @@
     font-weight: bold;
     padding-bottom: 40px;
 }
+
 .article_title{
     font-size: 18px;
     font-weight: bold;
@@ -73,6 +68,7 @@
     font-size: 18px;
     line-height: 25px;
 }
+
 .buttonEmpezar{
     width: 180px;
     height: 45px;
@@ -91,4 +87,122 @@
     color: $color_bright_orange;
     border: 2px solid $color_greyish_brown;
     transition: all 300ms;
+}
+
+@media (min-width: 768px) {
+    .subtitle{
+        font-size: 16px;
+        margin-top: 37px;
+        margin-left: 37px;
+    }
+
+    .title{
+        font-size: 32px;
+        margin-top: 5px;
+        margin-left: 30px;
+    }
+
+    .text{
+        font-size: 20px;
+        margin-top: 12px;
+        margin-left: 37px;
+        margin-bottom: 20px;
+    }
+    
+    
+}
+
+@media (min-width: 1200px){
+    .subtitle{
+        font-size: 16px;
+        margin-top: 58px;
+        margin-left: 155px;
+    }
+    .title{
+        font-size: 32px;
+        margin-left: 155px;
+    }
+    .text{
+        width: 860px;
+        font-size: 20px;
+        line-height: 1.8;
+        padding-left: 117px;
+    }
+
+}
+.buttonComprar{
+    width: 160px;
+    height: 45px;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: $color_white;
+    color: $color_bright_orange;
+    border-radius: 22px;
+    border: 2px solid $color_bright_orange;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+@media (min-width: 768px){
+    .buttonComprar,
+    .buttonComprar:hover {
+        margin-left: 37px;
+        margin-bottom: 60px;
+    }
+}
+
+@media (min-width: 1200px){
+    .buttonComprar,
+    .buttonComprar:hover{
+        margin-left: 155px;
+        margin-top: 15px;
+
+    }
+
+}
+
+@media (min-width: 768px){
+    .section{
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .h3{
+        grid-column-start: 3;
+        grid-column: 1/4;
+        width: 405px;
+        line-height: 45px;
+        font-size: 28px;
+        margin-top: 30px;
+    }
+
+    .article_text,
+    .article_title{
+        grid-column-end: 3;
+        margin-top: 20px;
+    }
+
+    .buttonEmpezar,
+    .buttonEmpezar:hover{
+        grid-column: 1/4;
+        margin-top: 35px;
+    }
+}
+
+@media (min-width: 1200px){
+    .h3{
+        font-size: 32px;
+        width: 500px;
+    }
+
+    .article_title{
+        font-size: 24px;
+    }
+    .article_text{
+        width: 310px;
+        font-size: 20px;
+
+    }
+
+
 }
