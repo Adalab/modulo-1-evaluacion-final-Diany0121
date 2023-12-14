@@ -3,67 +3,101 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
+    <title>Modulo 1 Evaluacion Final</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
     
-    <link rel="icon" href="./images/favicon.png" />
-    <link rel="stylesheet" href="./assets/main-62015576.css">
+    <script src="https://kit.fontawesome.com/153e998e96.js" crossorigin="anonymous"></script>
+    <!--<link rel="icon" href="./images/favicon.png" />-->
+    <link rel="stylesheet" href="./assets/main-0d875a0a.css">
   </head>
 
   <body>
-    <div class="page">
-      <header class="page__header">
-  <img src="./images/logo-adalab.png" alt="Adalab">
-  <h1>Bienvenidos a Adalab</h1>
+    
+      <header class="header">
+  <div>
+    <a href="http://adalab.es" title="Adalab Web">
+      <img src=".//images/menú.png" alt="menu_burger" />
+    </a>
+  </div>
 </header>
 
-      <main class="page__main">
-  <h2>Este es el starter kit de Adalab</h2>
-  <p>Lo usamos para aprender:</p>
-  <ul class="main__list">
-    <li>Sass</li>
-    <li>HTML partials</li>
-    <li>Gulp</li>
-    <li>y muchas cosas más</li>
-  </ul>
-  <p>Si quieres saber cúales son las rutas correctas para:</p>
-  <ul class="main__list">
-    <li>
-      una <code class="code">&lt;img /&gt;</code> mira el fichero
-      <code class="code">./src/html/partials/header.html</code>.
-    </li>
-    <li>
-      y para un <code class="code">background-image</code> mira el fichero
-      <code class="code">./src/html/scss/layout/_page.scss</code>.
-    </li>
-  </ul>
-  <p>
-    Si quieres saber cómo usar un partial HTML dentro de otro partial, busca en la carperta
-    <code class="code">./src/html/index.html</code> y
-    <code class="code">./src/html/partials/main.html</code>, y verás cómo estamos creando estos
-    enlaces:
+<section class="hero">
+  <h1 class="hero_title">Hasta un 50% de descuento</h1>
+  <p class="hero_title_text">Ya están aquí las ofertas de fin de temporada</p>
+
+  <div class="botton">
+    <a href="#subtitle_2" title="Conecta Conmigo" class="botton_scroll">
+      <img src=".//images/ico-scroll-down.svg" alt="Botton" class="botton_scroll_arrow"/>
+    </a>
+  </div>
+</section>
+
+      <section>
+  <p class="subtitle" id="subtitle_2">Los sentimientos nos inspiran</p>
+  <h2 class="title">Conecta Contigo</h2>
+  <p class="text">
+    Esto es una celebración de todo lo que nos mueve. Del poder de elegir y de
+    la libertad de ser. Rendimos homenaje al hermoso caos del movimiento y a la
+    plena consciencia que tan bien nos hacen sentir.
   </p>
-  <ul class="main__list">
-    <li>
-      <a class="link__adalab" href="https://adalab.es">Adalab</a>
 
-    </li>
-    <li>
-      <a class="{=$aClass}" href="./more-info.html">Más info del starter kit</a>
+  <input type="button" value="Comprar"  class="buttonComprar"/>
+</section>
 
-    </li>
-  </ul>
-</main>
 
-      <footer class="page__footer">
-  <small>
-    &copy; Todos los derechos reservados
-    <a class="link__adalab" href="https://adalab.es">Adalab</a>
+<section class="section">
+    <h3 class="h3">Año nuevo, movimientos nuevos</h3>
+    <article>
+    <h4 class="article_title">Entrenamientos</h4>
+    <p class="article_text">Sesiones de running y entrenamientos.</p>
+</article>
+    <article>
+    <h4 class="article_title">Cualquier nivel</h4>
+    <p class="article_text">Entrenamientos para cada nivel.</p>
+</article>
+    <article>
+    <h4 class="article_title">Exclusividad</h4>
+    <p class="article_text">Productos para miembros premium.</p>
+</article>
 
-  </small>
+    <input type="button" value="Empezar ahora" class="buttonEmpezar"/>
+</section>
+
+      <footer class="footer">
+
+  <div class="buttonArrow">
+    <a href="../index.html" title="Header" class="buttonArrow_header">
+      <img src=".//images/ico-arrow.svg" alt="buttonArrow_header_icon" />
+    </a>
+  </div>
+
+  <nav class="container_first">
+    <a href="http://adalab.es">
+        <ul>
+          <li>Zapatillas</li>
+          <li>Ropa</li>
+         <li>Niño/a</li>
+         <li>Destacados</li>
+         <li>Tips</li>
+       </ul>
+    </nav>
+
+  <nav class="container_second">
+    <a href="http://adalab.es">
+      <ul>
+        <li>Twitter</li>
+        <li>Instagram</li>
+        <li>Youtube</li>
+      </ul>
+  </nav>
+
+  
+  <div class="heart">
+    <p>we <i class="fa-solid fa-heart" style="color: #fa1100"></i> run </p>
+    <p class="heart_copy">&copy; 2023</p>
+  </div>
 </footer>
 
-    </div>
-    <script src="./js/main.js"></script>
+    
   </body>
 </html>
